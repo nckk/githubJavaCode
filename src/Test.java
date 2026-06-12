@@ -11,6 +11,7 @@ class Person {
     Person(String name, int age, int height) {
         this.name = name;
         this.age = age;
+        this.height = height;
     }
 }
 
@@ -18,8 +19,8 @@ class Student extends Person {
     private final int rollNo;
     private final int marks;
 
-    Student(String name, int age, int rollNo, int marks) {
-        super(name, age);
+    Student(String name, int age, int height,int rollNo, int marks) {
+        super(name, age,height);
         this.rollNo = rollNo;
         this.marks = marks;
     }
