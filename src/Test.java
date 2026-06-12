@@ -67,8 +67,6 @@ public class Test {
         names.forEach(System.out ::println);
         names.sort((str1,str2) -> Integer.compare(str1.length(),str2.length()));
         System.out.println("Sorted by length:" + names);
-
-
     }
 
 }
